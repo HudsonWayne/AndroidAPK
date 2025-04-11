@@ -8,3 +8,6 @@ width = GetSystemMetrics(0)
 height = GetSystemMetrics(1)
 
 dim = (width, height)
+
+f = cv2.VideoWriter_fourcc(*"XVID")
+output = cv2.VideoWriter("test.mp4")
